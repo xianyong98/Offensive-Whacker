@@ -3,8 +3,8 @@ This repository contains the project contents for ICT 2206 Assignment 1
 
 ## Assignment
 The source code for the assignments can be found at the following links:
-1. 
-2. 
+1. https://github.com/xianyong98/Offensive-Whacker/blob/main/main.py
+2. https://github.com/xianyong98/Offensive-Whacker/blob/main/chromedriver.exe
 
 # License and Copyright
 Repository content (Excluding third-party resources, see below) shall be released under the [MIT License](LICENSE).
