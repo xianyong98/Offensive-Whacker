@@ -1,18 +1,51 @@
-#ICT 2206
-This repository contains the project contents for ICT 2206 Assignment 1
+# Offensive Whacker
 
-## Assignment
-The source code for the assignments can be found at the following links:
-1. https://github.com/xianyong98/Offensive-Whacker/blob/main/main.py
-2. https://github.com/xianyong98/Offensive-Whacker/blob/main/chromedriver.exe
+Offensive Whacker (OW!) is created as part of an ICT2206 Assignment 1. This is an offensive tool created to automate Cross-Site Scripting (XSS) attacks as well as scan for vulnerabilities. The purpose of the creation of this tool is to allow users to use an all in one tool to perform their XSS attacks without the need of switching programs as well as to allow users who are less experienced to use our pre-made XSS code which reduces the time spent on researching and creating payload as this component continuously scans the site’s URL field and injects a large list of pre-written XSS codes into it.
 
-# License and Copyright
-Repository content (Excluding third-party resources, see below) shall be released under the [MIT License](LICENSE).
+## Installation
 
-This repository contains the source code for the project created for the fufillment of the module ICT 2206.
+Offensive Whacker (OW!) requires a few prerequisites to get the program working. It has to run strictly on a Windows environment. Additionally, you would need the following packages below.
 
-As such, copyright and any rights to this project shall belong to the project contributors as well as to [Singapore Institute of Technology (SIT)](https://www.singaporetech.edu.sg/)
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install these packages.
 
-Plagiarism is a serious offence, and SIT's policy explicitly forbids such acts. Any submission caught with plagiarised work shall receive zero marks for their submission.
+```shell
+pip install PyQT5
+pip install PyQT5-WebEngine
+pip install selenium
+pip install requests
+pip install pyperclip
+pip install fpdf
+```
+## Usage
 
-Any third-party resources used for this project may be reused in accordance to their license and/or terms and conditions.
+Offensive Whacker (OW!) can be run in an IDE or a windows command-line environment to start you will have to call the main python file as follows:
+
+```shell
+python main.py
+```
+
+## Features
+
+There are five main features to our program. These five features perform various different kinds of functions and a demonstration of it can be viewed here:
+
+## XSS Vulnerability Scanner
+
+**Insert desc here* *
+
+## DOM Scanner
+
+**Insert desc here* *
+
+## Fuzz Scanning
+
+**Insert desc here* *
+
+## Automatic XSS Attack
+
+**Insert desc here* *
+
+## Manual XSS Attack 
+
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
