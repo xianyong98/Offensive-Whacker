@@ -26,24 +26,24 @@ python main.py
 
 ## Features
 
-There are five main features to our program. These five features perform various different kinds of functions and a demonstration of it can be viewed here:
+There are five main features to our program. These five features perform various different kinds of functions and a demonstration of it can be viewed here: https://youtu.be/IHVmZyp67wk
 
 ## XSS Vulnerability Scanner
 
-To run this feature, users will be greeted with the XSS Vulnerability Scan tab after running main.py. Users can proceed to click Scan. After that, there would five options to choose from: Scan URL (Full HTML Scan), Scan URL (Fast HTML Scan), Scan URL (Full without HTML Scan) and Scan URL (Fast without HTML Scan). The user would then be prompted to enter the URL that they wish to scan. Finally, users would be able to choose if they would wish to add a cookie string to the URL, stop at the first vulnerability found, and store the results into a JSON file. Once the scan has been completed, users can view the vulnerability payload of the website that they have stated earlier and export the results as a PDF if they wish. 
+To run this feature, users will be greeted with the XSS Vulnerability Scan tab after running main.py. Users can proceed to click Scan. After that, there would five options to choose from: Scan URL (Full HTML Scan), Scan URL (Fast HTML Scan), Scan URL (Full without HTML Scan) and Scan URL (Fast without HTML Scan). The user would then be prompted to enter the URL that they wish to scan. Once the scan has been completed, users can view the vulnerability payload of the website that they have stated earlier and export the results as a PDF if they wish. 
 
 ## Fuzz Scanning
 
-To run this feature, users will be greeted with the Fuzz Scanning tab after running main.py. Users will then input a domain name, for example, we will be using singaporetech.edu.sg to generate our fuzzed URLs. After clicking on start fuzzing, this would be the output of the scan. Upon the generation of the fuzzed URLs, users may choose to export the results as a PDF file. These outputs can then be used alongside the Manual XSS Attack tab to concurrently inject payloads and be able to try to get an XSS URL attack to potentially work.
+To run this feature, users will be greeted with the Fuzz Scanning tab after running main.py. Users will then input a domain name, for example; singaporetech.edu.sg to generate fuzzed URLs. Upon the generation of the fuzzed URLs, users may choose to export the results as a PDF file. These outputs can then be used alongside the Manual XSS Attack tab to concurrently inject payloads and be able to try to get an XSS URL attack to potentially work.
 
 ## DOM Scanner
 
 For this DOM scanning feature, users can scan for DOM-based vulnerabilities on a website. Users are greeted with the DOM Scan tab upon the execution of main.py file. 
-Users then can input the URL with the proper parameters. For example, I will be using the website https://sudo.co.il/xss/level0.php?=email. The scan function then outputs the payloads that are available for the user to choose in the DOM attack, it also shows the efficiency and confidence level of the payloads, and users would be able to gauge the chances of the payload to be working as intended. Upon the generation of the DOM-based payloads, users may choose to export the results as a PDF file. Users may choose to attack the URL using the specified payload that is generated. 
+Users then can input the URL with the proper parameters. The scan function then outputs the payloads that are available for the user to choose in the DOM attack, it also shows the efficiency and confidence level of the payloads, and users would be able to gauge the chances of the payload to be working as intended. Upon the generation of the DOM-based payloads, users may choose to export the results as a PDF file. Users may choose to attack the URL using the specified payload that is generated. 
 
 ## Automatic XSS Attack
 
-For this Automatic XSS Attack feature, users can scan for DOM-based vulnerabilities on a website. Users are greeted with the Automatic XSS tab upon the execution of main.py file.Users can then input the URL that they wish to attack automatically and then click on Start Attack. It automatically launches the Chrome web browser and starts the attack. In additional, it will also automatically launch multiple instances of the web browser to inject the code onto the URL.
+For this Automatic XSS Attack feature, users can scan for DOM-based vulnerabilities on a website. Users are greeted with the Automatic XSS tab upon the execution of main.py file. Users can then input the URL that they wish to attack automatically and then click on Start Attack. It automatically launches the Chrome web browser and starts the attack. In addition, it will also automatically launch multiple instances of the web browser to inject the code onto the URL.
 
 ## Manual XSS Attack 
 
