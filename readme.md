@@ -32,9 +32,9 @@ There are five main features to our program. These five features perform various
 
 To run this feature, users will be greeted with the XSS Vulnerability Scan tab after running main.py as seen in Figure 1.
 
-<p align="center">![image](https://user-images.githubusercontent.com/71886838/161992523-340e9561-4b41-48ae-a623-9e313b3b0a83.png)</p>
+![image](https://user-images.githubusercontent.com/71886838/161992523-340e9561-4b41-48ae-a623-9e313b3b0a83.png)
 
-Figure 1
+ <u>Figure 1</u>
 
 Users can proceed to click Scan; the following output will be shown in the command line as seen in Figure 2.  There are five options to choose from: Scan URL (Full HTML Scan), Scan URL (Fast HTML Scan), Scan URL (Full without HTML Scan) and Scan URL (Fast without HTML Scan). 
 
