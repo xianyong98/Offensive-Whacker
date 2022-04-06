@@ -69,7 +69,27 @@ Figure 6
 
 ## DOM Scanner
 
-**Insert desc here* *
+To run this feature, users will be greeted with the Fuzz Scanning tab after running main.py as seen in Figure 7. 
+
+![image](https://user-images.githubusercontent.com/71886838/161993320-eeb3dbf5-2800-4e5f-9bb2-e1d048de08dc.png)
+ 
+Figure 7
+
+Users will then input a domain name, for example, we will be using singaporetech.edu.sg to generate our fuzzed URLs. After clicking on start fuzzing, this would be the output of the scan. 
+
+![image](https://user-images.githubusercontent.com/71886838/161993358-ee9a652c-1ea4-4ad1-9214-a6f678e08f12.png)
+ 
+Figure 8
+Upon the generation of the fuzzed URLs, users may choose to export the results as a PDF file. A snippet of the PDF output can be seen in Figure 9. 
+
+![image](https://user-images.githubusercontent.com/71886838/161993384-3b7d8140-4891-4707-a3d7-b2eb2794a1de.png)
+
+![image](https://user-images.githubusercontent.com/71886838/161993404-70558745-1d65-4c85-9e18-9e1633af3e75.png)
+
+Figure 9
+
+These outputs can then be used alongside the Manual XSS Attack tab to concurrently inject payloads and be able to try to get an XSS URL attack to potentially work.
+
 
 ## Fuzz Scanning
 
