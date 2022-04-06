@@ -131,6 +131,7 @@ Users can then input the URL that they wish to attack automatically and then cli
 
 For Manual XXS Attacks feature, it provides users with 2 Attack Formats: Website Input Fields and URL. The steps needed to run the attack are as follows: Firstly, the user would enter the target website’s URL in the topmost field. Secondly, he/she would need to choose any of the three XSS Type checkboxes: Basic, Advanced, and Filter, in any combination according to their preference. Thirdly, is the choice of the XXS Payload user would like to perform. Thereafter, the chosen payloads will be displayed in the Craft XXS Payload section. Lastly, before the user could inspect and edit the text in the Craft XXS Payload section and click on the attack button, he/she would need to select the Attack Format: Website Input Fields or URL. Figure 15 shows the UI for Manual XXS Attacks.
 
+
 ![image](https://user-images.githubusercontent.com/71886838/161994181-c6140025-574d-4a33-b584-44c2efccb722.png)
  
 <ins>Figure 15</ins>
