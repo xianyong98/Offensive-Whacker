@@ -66,30 +66,6 @@ Once the result has been generated, users may wish to choose to export the resul
 
 Figure 6
 
-
-## DOM Scanner
-
-For this DOM scanning feature, users can scan for DOM-based vulnerabilities on a website. Users are greeted with the DOM Scan tab upon the execution of main.py file as seen in Figure 10. 
-
-![image](https://user-images.githubusercontent.com/71886838/161993820-96d4c44d-0bac-42d0-93c1-489bd82fc967.png)
-
-Figure 10
-
-Users then can input the URL with the proper parameters. For example, I will be using the website https://sudo.co.il/xss/level0.php?=email. As seen in Figure 11, the scan function then outputs the payloads that are available for the user to choose in the DOM attack, it also shows the efficiency and confidence level of the payloads, and users would be able to gauge the chances of the payload to be working as intended. 
-
-![image](https://user-images.githubusercontent.com/71886838/161993859-4baed219-bd86-4301-a6b3-b729de320abb.png)
- 
-Figure 11
-
-Upon the generation of the DOM-based payloads, users may choose to export the results as a PDF file. A snippet of the PDF output can be seen in Figure 12. 
-
-![image](https://user-images.githubusercontent.com/71886838/161993901-95228052-ecb8-420f-bd60-041129a3091e.png)
-
-Figure 12
-
-Users may choose to attack the URL using the specified payload that is generated. 
-
-
 ## Fuzz Scanning
 
 To run this feature, users will be greeted with the Fuzz Scanning tab after running main.py as seen in Figure 7. 
@@ -113,6 +89,28 @@ Upon the generation of the fuzzed URLs, users may choose to export the results a
 Figure 9
 
 These outputs can then be used alongside the Manual XSS Attack tab to concurrently inject payloads and be able to try to get an XSS URL attack to potentially work.
+
+## DOM Scanner
+
+For this DOM scanning feature, users can scan for DOM-based vulnerabilities on a website. Users are greeted with the DOM Scan tab upon the execution of main.py file as seen in Figure 10. 
+
+![image](https://user-images.githubusercontent.com/71886838/161993820-96d4c44d-0bac-42d0-93c1-489bd82fc967.png)
+
+Figure 10
+
+Users then can input the URL with the proper parameters. For example, I will be using the website https://sudo.co.il/xss/level0.php?=email. As seen in Figure 11, the scan function then outputs the payloads that are available for the user to choose in the DOM attack, it also shows the efficiency and confidence level of the payloads, and users would be able to gauge the chances of the payload to be working as intended. 
+
+![image](https://user-images.githubusercontent.com/71886838/161993859-4baed219-bd86-4301-a6b3-b729de320abb.png)
+ 
+Figure 11
+
+Upon the generation of the DOM-based payloads, users may choose to export the results as a PDF file. A snippet of the PDF output can be seen in Figure 12. 
+
+![image](https://user-images.githubusercontent.com/71886838/161993901-95228052-ecb8-420f-bd60-041129a3091e.png)
+
+Figure 12
+
+Users may choose to attack the URL using the specified payload that is generated. 
 
 ## Automatic XSS Attack
 
@@ -144,13 +142,13 @@ After the attack button is pressed, Selenium would be triggered to automate the 
                         
 ![image](https://user-images.githubusercontent.com/71886838/161994290-35595a1b-6202-4879-b876-34f55934401f.png)
 
-  Figure 17
+Figure 17
   
 After executing the attack, the browser would close automatically after some time. Users would be able to monitor the logs to find out what has exactly happened during the attack. For example: after the executing the Website Input Fields attack, the HTML class of the button that has been clicked would be shown in the logs. Figure 18 shows the logging for URL Attack.
 
 ![image](https://user-images.githubusercontent.com/71886838/161994348-6325c6fc-e8c2-4b91-be23-3ecd4e7a8880.png)
 
-                           Figure 18
+Figure 18
 
 
 ## License
