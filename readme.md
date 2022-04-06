@@ -69,6 +69,29 @@ Figure 6
 
 ## DOM Scanner
 
+For this DOM scanning feature, users can scan for DOM-based vulnerabilities on a website. Users are greeted with the DOM Scan tab upon the execution of main.py file as seen in Figure 10. 
+
+![image](https://user-images.githubusercontent.com/71886838/161993820-96d4c44d-0bac-42d0-93c1-489bd82fc967.png)
+
+Figure 10
+
+Users then can input the URL with the proper parameters. For example, I will be using the website https://sudo.co.il/xss/level0.php?=email. As seen in Figure 11, the scan function then outputs the payloads that are available for the user to choose in the DOM attack, it also shows the efficiency and confidence level of the payloads, and users would be able to gauge the chances of the payload to be working as intended. 
+
+![image](https://user-images.githubusercontent.com/71886838/161993859-4baed219-bd86-4301-a6b3-b729de320abb.png)
+ 
+Figure 11
+
+Upon the generation of the DOM-based payloads, users may choose to export the results as a PDF file. A snippet of the PDF output can be seen in Figure 12. 
+
+![image](https://user-images.githubusercontent.com/71886838/161993901-95228052-ecb8-420f-bd60-041129a3091e.png)
+
+Figure 12
+
+Users may choose to attack the URL using the specified payload that is generated. 
+
+
+## Fuzz Scanning
+
 To run this feature, users will be greeted with the Fuzz Scanning tab after running main.py as seen in Figure 7. 
 
 ![image](https://user-images.githubusercontent.com/71886838/161993320-eeb3dbf5-2800-4e5f-9bb2-e1d048de08dc.png)
@@ -80,6 +103,7 @@ Users will then input a domain name, for example, we will be using singaporetech
 ![image](https://user-images.githubusercontent.com/71886838/161993358-ee9a652c-1ea4-4ad1-9214-a6f678e08f12.png)
  
 Figure 8
+
 Upon the generation of the fuzzed URLs, users may choose to export the results as a PDF file. A snippet of the PDF output can be seen in Figure 9. 
 
 ![image](https://user-images.githubusercontent.com/71886838/161993384-3b7d8140-4891-4707-a3d7-b2eb2794a1de.png)
@@ -90,16 +114,43 @@ Figure 9
 
 These outputs can then be used alongside the Manual XSS Attack tab to concurrently inject payloads and be able to try to get an XSS URL attack to potentially work.
 
-
-## Fuzz Scanning
-
-**Insert desc here* *
-
 ## Automatic XSS Attack
 
-**Insert desc here* *
+For this Automatic XSS Attack feature, users can scan for DOM-based vulnerabilities on a website. Users are greeted with the Automatic XSS tab upon the execution of main.py file as seen in Figure 13.
+
+![image](https://user-images.githubusercontent.com/71886838/161994045-234fa819-8024-4f80-a8f4-56257f8f3be6.png)
+ 
+Figure 13
+
+Users can then input the URL that they wish to attack automatically and then click on Start Attack. As seen in Figure 14, it automatically launches the Chrome web browser and starts the attack. It will automatically launch multiple instances of the web browser to inject the code onto the URL.
+
+![image](https://user-images.githubusercontent.com/71886838/161994076-8e86494f-6758-4830-9caa-a8c4aea11d41.png)
+ 
+Figure 14
+
 
 ## Manual XSS Attack 
+
+For Manual XXS Attacks feature, it provides users with 2 Attack Formats: Website Input Fields and URL. The steps needed to run the attack are as follows: Firstly, the user would enter the target website’s URL in the topmost field. Secondly, he/she would need to choose any of the three XSS Type checkboxes: Basic, Advanced, and Filter, in any combination according to their preference. Thirdly, is the choice of the XXS Payload user would like to perform. Thereafter, the chosen payloads will be displayed in the Craft XXS Payload section. Lastly, before the user could inspect and edit the text in the Craft XXS Payload section and click on the attack button, he/she would need to select the Attack Format: Website Input Fields or URL. Figure 15 shows the UI for Manual XXS Attacks.
+
+![image](https://user-images.githubusercontent.com/71886838/161994181-c6140025-574d-4a33-b584-44c2efccb722.png)
+ 
+Figure 15
+
+After the attack button is pressed, Selenium would be triggered to automate the attack on the chrome browser, based on the attack format: Website Input Fields or URL, the result could be either shown in Figure 16 and Figure 17 one after another or only in Figure 17 respectively.
+![image](https://user-images.githubusercontent.com/71886838/161994251-ef911702-e185-40c0-8451-624799797b27.png)
+
+                        Figure 16
+                        
+![image](https://user-images.githubusercontent.com/71886838/161994290-35595a1b-6202-4879-b876-34f55934401f.png)
+
+  Figure 17
+  
+After executing the attack, the browser would close automatically after some time. Users would be able to monitor the logs to find out what has exactly happened during the attack. For example: after the executing the Website Input Fields attack, the HTML class of the button that has been clicked would be shown in the logs. Figure 18 shows the logging for URL Attack.
+
+![image](https://user-images.githubusercontent.com/71886838/161994348-6325c6fc-e8c2-4b91-be23-3ecd4e7a8880.png)
+
+                           Figure 18
 
 
 ## License
