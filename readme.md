@@ -138,7 +138,7 @@ Figure 15
 After the attack button is pressed, Selenium would be triggered to automate the attack on the chrome browser, based on the attack format: Website Input Fields or URL, the result could be either shown in Figure 16 and Figure 17 one after another or only in Figure 17 respectively.
 ![image](https://user-images.githubusercontent.com/71886838/161994251-ef911702-e185-40c0-8451-624799797b27.png)
 
-                        Figure 16
+Figure 16
                         
 ![image](https://user-images.githubusercontent.com/71886838/161994290-35595a1b-6202-4879-b876-34f55934401f.png)
 
