@@ -32,26 +32,26 @@ There are five main features to our program. These five features perform various
 
 To run this feature, users will be greeted with the XSS Vulnerability Scan tab after running main.py as seen in Figure 1.
 ![image](https://user-images.githubusercontent.com/71886838/161992523-340e9561-4b41-48ae-a623-9e313b3b0a83.png)
+Figure 1
 
-  Figure 1
 Users can proceed to click Scan; the following output will be shown in the command line as seen in Figure 2.  There are five options to choose from: Scan URL (Full HTML Scan), Scan URL (Fast HTML Scan), Scan URL (Full without HTML Scan) and Scan URL (Fast without HTML Scan). 
+![image](https://user-images.githubusercontent.com/71886838/161992736-bae97807-276f-43f6-a609-a7d3105c4761.png)
+Figure 2
 
-  Figure 2
 The user would then be prompted to enter the URL that they wish to scan as seen in Figure 3.
-
-  Figure 3
+![image](https://user-images.githubusercontent.com/71886838/161992777-555b44ea-1091-46a6-b682-0dfd40b453e1.png)
+Figure 3
  
 Thereafter, users would be able to choose if they would wish to add a cookie string to the URL, stop at the first vulnerability found, and store the results into a JSON file as seen in Figure 4.
+![image](https://user-images.githubusercontent.com/71886838/161992817-908a6c01-c24e-4ec9-b468-3284a71e7097.png)
+Figure 4
 
- Figure 4
 Once the scan has been completed, users can view the vulnerability payload of the website that they have stated earlier in Figure. An example of a vulnerability would be as seen in Figure 5: 
-
- 
+![image](https://user-images.githubusercontent.com/71886838/161992852-ddfe756d-b532-4304-bce3-a649165666e4.png)
 Figure 5
 
 Once the result has been generated, users may wish to choose to export the results as a PDF. A snippet taken from the PDF output in Figure 6 shows the payload and the exact URL needed to launch the XSS attack.
-
- 
+![image](https://user-images.githubusercontent.com/71886838/161992889-04d7579a-164d-41fd-9790-dcbf1c174ec7.png) 
 Figure 6
 
 
