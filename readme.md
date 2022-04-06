@@ -137,6 +137,7 @@ For Manual XXS Attacks feature, it provides users with 2 Attack Formats: Website
 <ins>Figure 15</ins>
 
 After the attack button is pressed, Selenium would be triggered to automate the attack on the chrome browser, based on the attack format: Website Input Fields or URL, the result could be either shown in Figure 16 and Figure 17 one after another or only in Figure 17 respectively.
+
 ![image](https://user-images.githubusercontent.com/71886838/161994251-ef911702-e185-40c0-8451-624799797b27.png)
 
 <ins>Figure 16</ins>
