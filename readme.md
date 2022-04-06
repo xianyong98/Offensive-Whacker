@@ -30,7 +30,7 @@ There are five main features to our program. These five features perform various
 
 ## XSS Vulnerability Scanner
 
-To run this feature, users will be greeted with the XSS Vulnerability Scan tab after running main.py. Users can proceed to click Scan. After that, there would five options to choose from: Scan URL (Full HTML Scan), Scan URL (Fast HTML Scan), Scan URL (Full without HTML Scan) and Scan URL (Fast without HTML Scan). The user would then be prompted to enter the URL that they wish to scan. Finally, users would be able to choose if they would wish to add a cookie string to the URL, stop at the first vulnerability found, and store the results into a JSON file. Once the scan has been completed, users can view the vulnerability payload of the website that they have stated earlier. Once the result has been generated, users may wish to choose to export the results as a PDF. 
+To run this feature, users will be greeted with the XSS Vulnerability Scan tab after running main.py. Users can proceed to click Scan. After that, there would five options to choose from: Scan URL (Full HTML Scan), Scan URL (Fast HTML Scan), Scan URL (Full without HTML Scan) and Scan URL (Fast without HTML Scan). The user would then be prompted to enter the URL that they wish to scan. Finally, users would be able to choose if they would wish to add a cookie string to the URL, stop at the first vulnerability found, and store the results into a JSON file. Once the scan has been completed, users can view the vulnerability payload of the website that they have stated earlier and export the results as a PDF if they wish. 
 
 ## Fuzz Scanning
 
